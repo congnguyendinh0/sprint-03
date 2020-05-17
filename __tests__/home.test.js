@@ -5,7 +5,7 @@ describe('Snapshot testing', () => {
     beforeEach(() => {
         jest.useFakeTimers()
     })
-    it('Renders Index Page correctly', done => {
+    it('Renders Index Page correctlyx', done => {
         request(app)
             .get('/')
             .then(response => {
